@@ -16,7 +16,10 @@ chmod +x WebScanPro.py
 ```
 python3 WebScanPro.py http://example.com/page.php?id=value
 ```
-
+# About me (json)
+```
+jq "about_me" aboutme.json
+```
 
 # Credits
 Credit to: farinap5
