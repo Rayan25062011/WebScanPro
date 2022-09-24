@@ -102,7 +102,7 @@ def start_banner():
                     [{CRED}!{END}] PRG_END means --> END OF PROGRAM
     """)
 def xst_(url):
-    print(f"\n[{CBLUE}INFO{END}] Testing XST")
+    print(f"\n[{CBLUE}INFO{END}] Working on XST")
     headers = {"Test":"Hello_Word"}
     req = requests.get(url, headers=headers)
     head = req.headers
@@ -129,7 +129,7 @@ def lfi_(url):
                 print(f"[{CRED}FAIL{END}] No payload n'or POC found!")
 
 def sql_(url):
-    print(f"\n[{CBLUE}INFO{END}] Testing SQL")
+    print(f"\n[{CBLUE}INFO{END}] Working on SQL")
     urlt = url.split("=")
     urlt = urlt[0] + '='
     urlb = urlt + '1-SLEEP(2)'
@@ -165,7 +165,7 @@ def sql_(url):
 def xss_(url):
     paydone = []
     payloads = ['injectest','/inject','//inject//','<inject','(inject','"inject','<script>alert("inject")</script>']
-    print(f"[{CBLUE}INFO{END}] Testing XSS")
+    print(f"[{CBLUE}INFO{END}] Working on XSS")
     print(f"[{CYELLOW}MSG{END}] {CBLUE2}10{END} Payloads.")
 
     urlt = url.split("=")
@@ -275,6 +275,8 @@ def banner(url):
     WebScanPro
     ----------
     Target --> {}
+    
+    
     """.format(url))
 def help():
     print(f"""
