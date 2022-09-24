@@ -7,9 +7,15 @@ target without any permission.
 
 # How to use
 
-```git clone https://github.com/Rayan25062011/WebScanPro```
-```chmod +x WebScanPro.py```
-```python3 WebScanPro.py http://example.com/page.php?id=value```
+```
+git clone https://github.com/Rayan25062011/WebScanPro
+```
+```
+chmod +x WebScanPro.py
+```
+```
+python3 WebScanPro.py http://example.com/page.php?id=value
+```
 
 
 # Credits
