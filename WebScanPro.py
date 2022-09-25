@@ -124,7 +124,7 @@ def lfi_(url):
             print(f"[{CYELLOW}MSG{END}] Payload:",pay)
             print(f"[{CYELLOW}MSG{END}] POC",uur)
             break
-        else:
+        if "root:x:0:0" not in req:
             for i in range(1):
                 print(f"[{CRED}FAIL{END}] No payload n'or POC found!")
 
