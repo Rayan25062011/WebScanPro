@@ -6,10 +6,5 @@ jobs:
   build:
   
     runs-on: linux, ubuntu-latest
-    python-version: 1.3
     steps:
       - name: Install WebScanPro
-      run: |
-        git clone https://github.com/Rayan25062011/WebScanPro
-        chmod +x WebScanPro.py
-        python3 WebScanPro.py
