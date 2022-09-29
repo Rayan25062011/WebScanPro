@@ -88,6 +88,10 @@ def ready_up():
         f.close()
         print("approvedPolicyToken.txt has been created! do not delete!")
         
+    else:
+        print("Privacy policy was not accepted!")
+        sys.exit()
+        
         
 def start_banner():
     print(f"""
