@@ -20,6 +20,3 @@ python3 WebScanPro.py http://example.com/page.php?id=value
 ```
 jq "about_me" aboutme.json
 ```
-
-# Credits
-Credit to: farinap5
